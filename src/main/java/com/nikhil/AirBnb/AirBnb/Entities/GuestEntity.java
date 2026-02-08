@@ -1,0 +1,38 @@
+package com.nikhil.AirBnb.AirBnb.Entities;
+
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.Set;
+
+import com.nikhil.AirBnb.AirBnb.Enums.Gender;
+
+@Entity
+@Setter
+@Getter
+@Table(name = "Guest")
+public class GuestEntity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private UserEntity user;
+
+    @Column(nullable = false)
+    private String name;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Gender gender;
+
+    private Integer age;
+
+/*    @ManyToMany(mappedBy = "guests")
+    private Set<BookingEntity> bookings;*/
+
+}
