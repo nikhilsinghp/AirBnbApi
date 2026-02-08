@@ -88,8 +88,7 @@ The system supports hotel onboarding, room & inventory management, booking flow,
 ### Webhook
 - **POST** `/webhook/payment` - Capture payments
 
-###Schema
-![Image](https://github.com/user-attachments/assets/bc209296-e0f2-48f9-a7ae-65d084e4cb6c)
+
 
 
 
@@ -126,5 +125,7 @@ Copy code
 
 http://localhost:8080/swagger-ui.html
 
-##Schema
+###Schema###
+
 ![Image](https://github.com/user-attachments/assets/bc209296-e0f2-48f9-a7ae-65d084e4cb6c)
+
