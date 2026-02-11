@@ -8,10 +8,10 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.aman.AirBnb</groupId>
-	<artifactId>AirBnb</artifactId>
+	<groupId>com.nikhil.AirBnb</groupId>
+	<artifactId>AirBnbApi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AirBnb</name>
+	<name>AirBnbApi</name>
 	<description>Airbnb Project</description>
 	<url/>
 	<licenses>
