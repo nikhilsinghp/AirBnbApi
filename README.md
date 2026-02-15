@@ -13,7 +13,6 @@ The system supports hotel onboarding, room & inventory management, booking flow,
 - Spring Security + JWT
 - MySQL
 - Maven
-- Docker
 - Swagger / OpenAPI
 
 ---
@@ -114,17 +113,7 @@ mvn clean install
 mvn spring-boot:run
 
 
- API Documentation:
  
-Once the application is running:
-http://localhost:8080/swagger-ui.html
-
-
-
-Copy code
-
-http://localhost:8080/swagger-ui.html
-
 ###Schema###
 
 ![Image](https://github.com/user-attachments/assets/bc209296-e0f2-48f9-a7ae-65d084e4cb6c)
